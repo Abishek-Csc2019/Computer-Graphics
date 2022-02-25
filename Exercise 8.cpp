@@ -7,7 +7,7 @@
 void main()
 {
     int i = 0;
-    int gd = DETECT, gm;
+    int gd = DETECT , gm;
     initgraph(&gd, &gm, "C:\\TC\\BGI");
     rectangle(0, 0, getmaxx(), getmaxy());
     int x = getmaxx() - 1, y = getmaxy() - 1;
